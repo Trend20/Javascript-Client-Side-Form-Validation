@@ -8,8 +8,11 @@ form.addEventListener('submit', (e) =>{
 
     let messages = [];
 
-    if(emailInput.value === "" || emailInput.value == null){
+    // email vaidation
+
+    if(emailInput.value === "" || emailInput.value == null && passwordInput.value.length <= 6 || passwordInput.value === ""){
         messages.push('Invalid email address');
+        messages.push('Password must be ateast 8 characters');
     }
 
     if(messages.length > 0 ){
@@ -18,4 +21,9 @@ form.addEventListener('submit', (e) =>{
 
         messageContainer.innerText = messages.join(' ,');
     }
+
+    // // password validation
+    // if(passwordInput.value.length <= 6 || passwordInput.value === ""){
+    //     messages.push('Password must be ateast 8 characters');
+    // }
 });

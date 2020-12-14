@@ -13,6 +13,9 @@ form.addEventListener('submit', (e) =>{
     if(emailInput.value === "" || emailInput.value == null && passwordInput.value.length <= 6 || passwordInput.value === ""){
         messages.push('Invalid email address');
         messages.push('Password must be ateast 8 characters');
+
+        emailInput.value = ''
+        passwordInput.value = ''
     }
 
     if(messages.length > 0 ){

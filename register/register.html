@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Form Validation</title>
+    
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet"> 
+    
+        <!-- custom CSS -->
+        <link rel="stylesheet" href="./register.css">
+    </head>
+<body>
+    <div class="form-inputs">
+        <h1>Welcome</h1>
+        <form action="/welcome.html" id="form" method="GET">
+            <h3>User Login</h3>
+            <div id="message"></div>
+            <div class="fields">
+                <input type="text" placeholder="Email or Username" id="email">
+                <input type="password" placeholder="Password" id="password">
+            </div>
+            <p>
+                <input type="checkbox" name="check" id="check">
+                Remember me
+            </p>
+            <a href="./reset/reset.html" id="reset">Forgot Password?</a>
+
+            <button type="submit">Log in</button>
+        </form>
+        <a href="./register/register.html" id="account">Create Account</a>
+    </div>
+</body>
+</html>

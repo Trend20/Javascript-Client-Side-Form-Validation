@@ -14,6 +14,8 @@ body{
     height: 100%;
 }
 
+
+
 .form-description{
     display: flex;
     flex-direction: column;
@@ -135,4 +137,114 @@ body{
     margin-top: 5px;
     color: red;
 }
+
+@media(max-width: 320px){
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .form-description{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .form-inputs{
+        width: 100%;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    #form button{
+        width: 40%;
+    }
+}
+
+
+/* medium */
+@media (min-width: 321px) and (max-width: 480px){
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .form-description{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .form-inputs{
+        width: 100%;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    #form button{
+        width: 40%;
+    }
+}
+
+
+
+/* tablets */
+@media (min-width: 481px) and (max-width: 768px){
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .form-description{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .form-inputs{
+        width: 100%;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    #form button{
+        width: 40%;
+    }
+}
+
+@media (min-width: 769px){
+    .container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .form-description{
+        width: 100%;
+        height: 100vh;
+    }
+
+    .form-inputs{
+        width: 100%;
+    }
+
+    #form{
+        width: 100%;
+    }
+
+    #form button{
+        width: 40%;
+    }
+}
+
+
 

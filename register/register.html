@@ -18,15 +18,16 @@
         <form action="/index.html" id="form" method="GET">
             <h3>User Login</h3>
             <div class="fields">
-                <input type="text" placeholder="Email or Username" id="email">
+                <input type="text" placeholder="Email or Username" id="email" required>
                 <br>
-                <input type="password" placeholder="Password" id="password">
+                <input type="password" placeholder="Password" id="password" required minlength="8" maxlength="8">
 
                 <br>
-                <input type="password" placeholder="Confirm Password" id="password">
+                <input type="password" placeholder="Confirm Password" id="password" required minlength="8" maxlength="8">
             </div>
             <button type="submit">Sign up</button>
         </form>
     </div>
+    <script src="./register.js"></script>
 </body>
 </html>

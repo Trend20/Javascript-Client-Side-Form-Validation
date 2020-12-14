@@ -56,3 +56,78 @@ body{
     margin-top: 20px;
     font-size: 1.5rem;
 }
+
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+#form h3{
+    font-style: 1.5rem;
+    font-weight: 700;
+}
+
+.fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+}
+
+.fields input{
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    border: none;
+    background: #aabfc5;
+}
+
+.fields input::placeholder{
+    color: #2182a0;
+    font-weight: 700;
+}
+
+#form p{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    color: #2182a0;
+    font-weight: 700;
+}
+
+#reset{
+    margin-top: 20px;
+    display: flex;
+    color: #2182a0;
+    font-weight: 700;
+}
+
+#form button{
+    padding: 10px;
+    margin-top: 20px;
+    color: #fff;
+    background:  #2182a0;
+    font-weight: 700;
+    border: none;
+    border-radius: 50px;
+    width: 20%;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+#account{
+    margin-top: 20px;
+    color: #2182a0;
+    font-weight: 700;
+}
+
